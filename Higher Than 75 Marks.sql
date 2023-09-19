@@ -3,4 +3,3 @@ Query the Name of any student in STUDENTS who scored higher than  Marks. Order y
 */
 
 SELECT NAME FROM STUDENTS WHERE MARKS>75 ORDER BY RIGHT(NAME,3),ID ASC;
-
